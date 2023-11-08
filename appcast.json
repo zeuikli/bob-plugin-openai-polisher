@@ -3,11 +3,18 @@
   "versions": [
     {
       "version": "1.2.3",
+      "desc": "",
+      "sha256": "19f20f7d0e53a6c3c555d48340439608fb3ef38b1d70b266c4414f01105fc213",
+      "url": "https://github.com/yetone/bob-plugin-openai-polisher/releases/download/v1.2.3/openai-polisher-1.2.3.bobplugin",
+      "minBobVersion": "1.8.0"
+    },
+    {
+      "version": "1.2.3",
       "desc": "Supports the latest GPT-4 and 3.5 Turbo models",
       "sha256": "efd43255e1014e92405fb1521c4d61fea4d50f8fb6a00a292790a49b1102420a",
       "url": "https://github.com/yetone/bob-plugin-openai-polisher/releases/download/v1.2.1/openai-polisher-1.2.3.bobplugin",
       "minBobVersion": "1.8.0"
-    },    
+    },
     {
       "version": "1.2.2",
       "desc": "优化 HTTP Error 429 的错误信息",
