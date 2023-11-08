@@ -59,8 +59,8 @@ jobs:
         with:
           release_name: ${{ steps.get_version.outputs.version }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: release/openai-translator-${{ steps.get_version.outputs.version-without-v }}.bobplugin
-          asset_name: openai-translator-${{ steps.get_version.outputs.version-without-v }}.bobplugin
+          file: release/openai-polisher-${{ steps.get_version.outputs.version-without-v }}.bobplugin
+          asset_name: openai-polisher-${{ steps.get_version.outputs.version-without-v }}.bobplugin
           tag: ${{ github.ref }}
           overwrite: true
           body: ${{ steps.tag.outputs.message }}
